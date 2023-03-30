@@ -41,7 +41,7 @@ enum SSDPMessageType {
 
 class SSDPDiscovery: NSObject {
     let multicastGroupAddress = "239.255.255.250"
-    let multicastUDPPort: UInt16 = 1400
+    let multicastUDPPort: UInt16 = 1900
     var types = [String]()
     
     func searchRequestData(forType type: String) -> Data? {
